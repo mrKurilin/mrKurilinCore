@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/templateFragment"
-        android:name="ru.mrkurilin.featureTemplate.presentation.TemplateFragment">
+        android:name="ru.mrkurilin.mrKurilinCore.featureTemplate.presentation.TemplateFragment">
     </fragment>
 
 </navigation>

@@ -1,7 +1,7 @@
 package ru.mrkurilin.mrKurilinCore.di.modules
 
 import dagger.Module
-import ru.mrkurilin.featureTemplate.di.TemplateFeatureComponent
+import ru.mrkurilin.mrKurilinCore.featureTemplate.di.TemplateFeatureComponent
 
 @Module(
     subcomponents = [
