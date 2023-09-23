@@ -1,5 +1,5 @@
 [versions]
-coreKtx = "1.10.1"
+coreKtx = "1.12.0"
 coreSplashscreen = "1.0.1"
 flexbox = "3.0.0"
 kotlin = "1.9.10"
@@ -7,20 +7,20 @@ appcompat = "1.6.1"
 agp = "8.1.1"
 ktor = "2.3.3"
 coroutines = "1.7.3"
-lifecycle = "2.6.1"
-navigation = "2.7.1"
-compose = "1.5.0"
+lifecycle = "2.6.2"
+navigation = "2.7.2"
+compose = "1.5.1"
 composeCompiler = "1.5.3"
 legacy-support-v4 = "1.0.0"
-lifecycle-livedata-ktx = "2.6.1"
+lifecycle-livedata-ktx = "2.6.2"
 kotlinSerialization = "1.5.1"
 ksp = "1.9.10-1.0.13"
 dagger = "2.48"
 retrofit = "2.9.0"
+material3 = "1.1.2"
 
 [libraries]
 androidGradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
-core-ktx-1_9_0 = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
 coreSplashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 flexbox = { module = "com.google.android.flexbox:flexbox", version.ref = "flexbox" }
 kotlinGradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -32,8 +32,8 @@ ktor-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = 
 
 coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core-jvm", version.ref = "coroutines" }
 
-coreKtx = { group = "androidx.core", name = "core-ktx", version = "1.10.1" }
-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
+coreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version = "1.9.0" }
 constraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
 
@@ -58,7 +58,7 @@ turbine = { group = "app.cash.turbine", name = "turbine", version = "1.0.0" }
 ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
 uiTooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
 composeMaterial = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.1.1" }
+material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
 preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
 runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "compose" }
 compiler = { group = "androidx.compose.compiler", name = "compiler", version.ref = "composeCompiler" }
