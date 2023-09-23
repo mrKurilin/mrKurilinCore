@@ -1,0 +1,3 @@
+package ru.mrkurilin.featureTemplate.domain.repository
+
+interface TemplateRepository

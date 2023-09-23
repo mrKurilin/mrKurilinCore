@@ -1,0 +1,3 @@
+package ru.mrkurilin.featureTemplate.presentation.stateHolders
+
+sealed interface TemplateEvent
